@@ -1,5 +1,5 @@
 FROM docker.io/library/debian:8.7
 
-RUN apt -y update \
-	&& apt -y install build-essential \
-	&& rm -fr /var/cache/apt
+RUN apt-get -y update \
+	&& apt-get -y install build-essential \
+	&& apt-get -y clean all
