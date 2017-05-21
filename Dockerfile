@@ -1,4 +1,4 @@
-FROM docker.io/library/debian:8.7
+FROM docker.io/library/debian:9
 
 RUN apt-get -y update \
 	&& apt-get -y install \
